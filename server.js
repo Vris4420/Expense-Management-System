@@ -3,7 +3,10 @@ const app = express();
 const cors = require('cors');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
+const connectDb = require('./config/connectDB');
 dotenv.config();
+
+connectDb();
 
 app.use(morgan('dev'));
 app.use(express.json());
