@@ -10,6 +10,24 @@ const Register = () => {
                     <Input/>
                 </Form.Item>
             </Form>
+            <Form layout="vertical">
+                <h1>Registration Page</h1>
+                <Form.Item label="Name" name="name">
+                    <Input/>
+                </Form.Item>
+            </Form>
+            <Form layout="vertical">
+                <h1>Registration Page</h1>
+                <Form.Item label="Name" name="name">
+                    <Input/>
+                </Form.Item>
+            </Form>
+            <Form layout="vertical">
+                <h1>Registration Page</h1>
+                <Form.Item label="Name" name="name">
+                    <Input/>
+                </Form.Item>
+            </Form>
         </div>
     )
 }
